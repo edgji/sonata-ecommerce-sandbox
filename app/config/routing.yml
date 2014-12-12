@@ -1,0 +1,11 @@
+# app:
+#     resource: @AppBundle/Controller/
+#     type:     annotation
+
+_front:
+    resource: routing_front.yml
+
+_admin:
+    resource: routing_admin.yml
+    prefix:   /admin
+
